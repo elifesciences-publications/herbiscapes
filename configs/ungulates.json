@@ -1,0 +1,21 @@
+[
+    [
+        "red_deer_f",
+        "red_deer_m",
+        "roe_deer",
+        "wild_boar",
+        "moose",
+        "bison"
+    ], 
+    {
+        "mtype": "spat_nmixture_nb", 
+        "msubtype": "ungulates", 
+        "formula_ls": "~wolf+lynx+open+open2+conif+conif2+fheight+dsetta+reserv+elev", 
+        "formula": "~open+open2+conif+conif2+fheight+temp+temp2+snow", 
+        "nchains": 3, 
+        "niter": 100000, 
+        "nburnin": 80000,
+        "nthin": 10, 
+        "burn_till_tuned": true       
+    }
+]

@@ -1,0 +1,17 @@
+[
+    [
+        "wolf",
+        "lynx"
+    ], 
+    {
+        "mtype": "spat_nmixture_nb", 
+        "msubtype": "carnivores", 
+        "formula_ls": "~reserv+elev+dsettm+pois+dtrails", 
+        "formula": "~1", 
+        "nchains": 3, 
+        "niter": 100000, 
+        "nburnin": 80000,
+        "nthin": 10, 
+        "burn_till_tuned": true       
+    }
+]
